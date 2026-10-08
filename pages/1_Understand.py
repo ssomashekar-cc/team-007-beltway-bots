@@ -94,14 +94,44 @@ with st.container(key="understand-content"):
     )
 
     st.subheader("At a glance")
-    metric_one, metric_two, metric_three = st.columns(3)
+    metric_one, metric_two, metric_three, metric_four = st.columns(4)
     metric_one.metric("Brevard nesting season", "May 1 – Oct 31")
     metric_two.metric("Brevard nests · 2025", "53,000")
     metric_three.metric("Broward nests · 2025", "3,300")
+    metric_four.metric("Shoreline (Broward / Brevard)", "24 mi / 71.6 mi")
     st.caption(
         "The supplied overview describes Brevard's county ordinance as generally covering "
         "May–October; Broward city sources generally cover March–October. Nest estimates "
         "are approximate and are not adjusted for shoreline length or survey effort."
+    )
+
+    st.subheader("Nighttime beach access")
+    broward_access, brevard_access = st.columns(2)
+    with broward_access:
+        st.markdown(
+            """
+            <div class="insight-card">
+                <h3>Broward · limited night access</h3>
+                <p>Broward beach parks generally allow limited nighttime
+                access.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    with brevard_access:
+        st.markdown(
+            """
+            <div class="insight-card">
+                <h3>Brevard · no night access</h3>
+                <p>Brevard beach parks generally do not allow nighttime
+                access.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    st.caption(
+        "This reflects general park access hours, not a turtle-specific law, "
+        "but it affects how much nighttime beach disturbance is possible."
     )
 
     st.subheader("Broward recommendations, informed by Brevard's approach")

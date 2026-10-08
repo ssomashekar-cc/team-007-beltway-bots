@@ -4,6 +4,11 @@ Helps decision makers determine possible policy changes by comparing a
 selected municipality's laws against Melbourne Beach, FL, surfacing
 AI-generated recommendations, and offering a mock policy simulator.
 
+NOTE: policy recommendation content (e.g. lighting-standard proposals,
+municipality-specific amendments, economic-impact-based suggestions) belongs
+here, not on Understand/Educate. Not populating yet - this page is still a
+placeholder pending the AI recommendation service.
+
 See PROJECT_HANDOFF.md for full context.
 """
 
