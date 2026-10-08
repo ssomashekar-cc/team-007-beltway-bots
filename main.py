@@ -77,7 +77,7 @@ st.markdown(
     }
     .st-key-site-header [data-testid="stPageLink"] {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         width: 100%;
     }
     .st-key-site-header [data-testid="stPageLink-NavLink"] {
@@ -85,7 +85,7 @@ st.markdown(
         border-radius: 999px;
         color: #fff;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         font-family: Arial, sans-serif;
         font-size: 1.2rem;
         font-weight: 800;
