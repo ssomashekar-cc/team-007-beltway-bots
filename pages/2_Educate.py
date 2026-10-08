@@ -53,6 +53,39 @@ with st.container(key="educate-content"):
         "preliminary estimates and have not been independently verified."
     )
 
+    # --- Historical activity: how nest management has differed over time -------
+    st.subheader("Historical Nest Management")
+    brevard_history, broward_history = st.columns(2)
+    with brevard_history:
+        st.markdown(
+            """
+            <div class="insight-card">
+                <h3>Brevard: nests generally left in place</h3>
+                <p>A darker overall lighting environment has historically let most
+                nests stay where they're laid, rather than being relocated.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    with broward_history:
+        st.markdown(
+            """
+            <div class="insight-card">
+                <h3>Broward: more historical relocation</h3>
+                <p>Heavier urban lighting has historically meant more nest relocations
+                and disoriented hatchlings. FWC has tightened relocation rules over
+                time.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    st.caption(
+        "Beach maintenance also differs: Broward's beaches see frequent renourishment "
+        "and mechanical raking, typically requiring morning nest surveys and staked "
+        "buffers beforehand. Brevard's renourishment projects are mostly managed for "
+        "dune and shoreline protection."
+    )
+
     # --- Tourism & Community Metrics (pending data integration) -----------------
     st.subheader("Tourism & Community Trends")
     st.info(
