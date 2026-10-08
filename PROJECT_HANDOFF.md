@@ -356,6 +356,16 @@ main
 
 Avoid direct commits to main.
 
+### Content Guidelines
+
+Page content (titles, captions, info boxes, expanders, etc.) must not reference
+internal dev docs, research memos, or source file/dataset names (e.g. don't
+write "per the supplied comparison doc" or name a file in `docs/`). Describe
+data sourcing generically (e.g. "preliminary estimates pending verification")
+or cite the original public source (NOAA, FWC, U.S. Census Bureau, etc.)
+instead. Internal docs can be referenced in code comments/docstrings, commit
+messages, and this handoff doc, just not in rendered app content.
+
 ## Immediate Next Steps
 
 ### Sprint 1: Scaffolding
