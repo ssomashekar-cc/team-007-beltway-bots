@@ -83,11 +83,12 @@ with st.container(key="understand-content"):
     st.markdown(
         """
         <div class="benchmark-callout">
-            <strong>Brevard is the working gold-standard reference; Broward is the focus for action.</strong>
-            Brevard's layered county, municipal, and federal approach informs proposed
-            Broward policies intended to protect turtles while accommodating tourism.
-            This is a model for comparison—not proof that policy alone explains nest
-            counts or that tourism impacts have been measured.
+            <strong>Melbourne Beach, FL is this project's designated benchmark municipality.</strong>
+            It sits within Brevard County, whose layered county, municipal, and federal
+            approach is shown here for broader regional context alongside Broward's
+            city-by-city rules. This is a side-by-side comparison for context—not proof
+            that policy differences alone explain nest counts, and it does not measure
+            tourism impacts.
         </div>
         """,
         unsafe_allow_html=True,
@@ -103,6 +104,58 @@ with st.container(key="understand-content"):
         "The supplied overview describes Brevard's county ordinance as generally covering "
         "May–October; Broward city sources generally cover March–October. Nest estimates "
         "are approximate and are not adjusted for shoreline length or survey effort."
+    )
+
+    st.subheader("The legal framework behind local rules")
+    st.markdown(
+        '<p class="understand-intro">Federal and state law apply the same way in both '
+        "counties; local ordinances and program administration are where Broward and "
+        "Brevard differ.</p>",
+        unsafe_allow_html=True,
+    )
+    federal_law, state_law, local_admin = st.columns(3)
+    with federal_law:
+        st.markdown(
+            """
+            <div class="insight-card">
+                <h3>Federal: Endangered Species Act</h3>
+                <p>Lists loggerheads and greens as threatened, and leatherbacks,
+                hawksbills, and Kemp's ridleys as endangered. Harming ("take") any of
+                them is prohibited.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    with state_law:
+        st.markdown(
+            """
+            <div class="insight-card">
+                <h3>State: Marine Turtle Protection Act</h3>
+                <p>Makes it illegal to disturb turtles, nests, or eggs. Nest work
+                requires an FWC permit; Rule 68E-1 F.A.C. sets permit conditions such
+                as nest marking, relocation, and hatchling releases.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    with local_admin:
+        st.markdown(
+            """
+            <div class="insight-card">
+                <h3>State: model lighting ordinance</h3>
+                <p>State law has FWC identify nesting beaches and gives local
+                governments a model lighting ordinance to adopt, which is the basis
+                for city-level rules in both counties.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    st.caption(
+        "Brevard also has substantial federal beachfront (Archie Carr National "
+        "Wildlife Refuge, Kennedy Space Center, Canaveral National Seashore) that "
+        "follows federal lighting plans and ESA consultations. Broward has very "
+        "little federal beachfront, so local ordinances and state permits do most "
+        "of the work there."
     )
 
     st.subheader("Nighttime beach access")
@@ -134,7 +187,7 @@ with st.container(key="understand-content"):
         "but it affects how much nighttime beach disturbance is possible."
     )
 
-    st.subheader("Broward recommendations, informed by Brevard's approach")
+    st.subheader("What the local rules emphasize")
     lighting, season, beach_use = st.columns(3)
     with lighting:
         st.markdown(
@@ -152,11 +205,10 @@ with st.container(key="understand-content"):
         st.markdown(
             """
             <div class="insight-card">
-                <h3>Keep Broward's early-season protection</h3>
+                <h3>Different season start dates</h3>
                 <p>The reviewed Broward city provisions generally cover March through
                 October, earlier than the May–October Brevard county season described
-                in the overview. Keep the earlier start unless wildlife agencies advise
-                otherwise.</p>
+                in the overview.</p>
             </div>
             """,
             unsafe_allow_html=True,
@@ -174,7 +226,7 @@ with st.container(key="understand-content"):
             unsafe_allow_html=True,
         )
 
-    st.subheader("Adapt the model to local conditions")
+    st.subheader("Two counties, different local landscapes")
     broward, brevard = st.columns(2)
     with broward:
         st.markdown(
@@ -193,11 +245,11 @@ with st.container(key="understand-content"):
         st.markdown(
             """
             <div class="county-card">
-                <h3>Brevard · layered policy reference</h3>
-                <p>County, municipal, and federal jurisdictions share the coast, with
-                monitoring distributed among multiple permit holders. Its layered
-                structure is a useful reference for Broward, whose beachfront rules are
-                primarily city by city.</p>
+                <h3>Brevard · extensive nesting coast</h3>
+                <p>County, municipal, and federal jurisdictions share the coast.
+                Monitoring is distributed among multiple permit holders; the supplied
+                dataset summary reports substantially more nests in 2025 than
+                Broward.</p>
             </div>
             """,
             unsafe_allow_html=True,
