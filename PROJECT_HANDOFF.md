@@ -257,6 +257,11 @@ Displays:
 - AI recommendations
 - Scenario simulator
 
+> **Status:** Not yet populated. Policy recommendation content (lighting-standard
+> proposals, municipality-specific ordinance amendments, economic-impact-based
+> suggestions) is reserved for this page only - it should not appear on
+> Understand or Educate, even once source material for it is available.
+
 ## Expected Data Sources
 
 ### Legal Data
