@@ -64,8 +64,8 @@ with st.container(key="educate-content"):
 
     st.caption(
         "Brevard's coastline is roughly 3x longer than Broward's, but sees about "
-        "5x the nest density per mile. Figures are from the supplied county "
-        "comparison dataset summary and are not independently verified."
+        "5x the nest density per mile. Figures are preliminary estimates and "
+        "have not been independently verified."
     )
 
     # --- Nighttime beach access ------------------------------------------------
@@ -76,8 +76,8 @@ with st.container(key="educate-content"):
             """
             <div class="insight-card">
                 <h3>Broward · limited night access</h3>
-                <p>The supplied beach access hours comparison lists Broward parks
-                with limited nighttime access.</p>
+                <p>Broward beach parks generally allow limited nighttime
+                access.</p>
             </div>
             """,
             unsafe_allow_html=True,
@@ -87,8 +87,8 @@ with st.container(key="educate-content"):
             """
             <div class="insight-card">
                 <h3>Brevard · no night access</h3>
-                <p>The supplied beach access hours comparison lists Brevard parks
-                with no nighttime access.</p>
+                <p>Brevard beach parks generally do not allow nighttime
+                access.</p>
             </div>
             """,
             unsafe_allow_html=True,
@@ -131,9 +131,9 @@ with st.container(key="educate-content"):
     st.subheader("Tourism & Community Trends")
     st.info(
         "Visitor counts, tourism revenue, and census/population trend data "
-        "haven't been integrated yet. Per PROJECT_HANDOFF.md, these will be "
-        "sourced from tourism boards, state tourism organizations, economic "
-        "development agencies, and the U.S. Census Bureau."
+        "haven't been integrated yet. These will be sourced from tourism "
+        "boards, state tourism organizations, economic development agencies, "
+        "and the U.S. Census Bureau."
     )
 
     # --- Comparison View ---------------------------------------------------------
@@ -145,7 +145,7 @@ with st.container(key="educate-content"):
 
     with st.expander("About this data"):
         st.write(
-            "Nesting, shoreline, and beach-access figures come from the supplied "
-            "Broward–Brevard county comparison dataset summary. See the "
-            "Understand page for the underlying ordinance details and caveats."
+            "Nesting, shoreline, and beach-access figures are preliminary "
+            "estimates pending verification. See the Understand page for the "
+            "underlying ordinance details and caveats."
         )
