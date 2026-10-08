@@ -1,0 +1,27 @@
+# Broward County Sea Turtle Policy Comparison
+
+This comparison summarizes the supplied sea-turtle and beach-lighting provisions for eight Broward County municipalities. The Melbourne Beach ordinance is used as a reference point.
+
+| Municipality | Nesting season and night period | Motor vehicles and fires on beach | Lighting policy |
+|---|---|---|---|
+| **Melbourne Beach (reference)** | May 1-October 31; nighttime is defined as 9 p.m.-5 a.m. | Not specified in the supplied sea-turtle article. | New development must prevent direct, indirect, and cumulative illumination seaward of the frontal dune. Existing lighting must be shielded, modified, or extinguished after 9 p.m. during nesting season. Public access lighting must be shielded or not used; new development receives a nighttime inspection before occupancy. |
+| **Fort Lauderdale** | March 1-October 31; sunset to sunrise. | Vehicles prohibited at night during nesting season, except emergency, law-enforcement, conservation, research, or beach-maintenance vehicles. Campfires and bonfires prohibited. | Detailed rules for new, existing, and public lighting. No direct, indirect, or cumulative beach illumination; controls cover windows, parking, balconies, construction, and public lights. New projects receive nighttime inspections. |
+| **Dania Beach** | March 1-October 31; sunset to sunrise. | Not specified in the supplied policy. | Public and private lighting may not be visible from or illuminate the beach. Uses Florida and Broward technical standards; new or redeveloped beachfront sites must show lighting controls in their plans. |
+| **Deerfield Beach** | March 1-October 31; existing-light rules specify sunset to sunrise. | Not specified in the supplied policy. | Detailed standards for new and existing development. New lighting must be FWC-certified wildlife lighting; rules cover long-wavelength, shielded fixtures, windows, parking, and public lighting. |
+| **Hallandale Beach** | March 1-October 31; the supplied policy says "nighttime" without defining the hours. | Vehicles prohibited at night during nesting season, except emergency, law-enforcement, conservation, or research vehicles. Campfires and bonfires prohibited. | Detailed new- and existing-development rules. Prevents direct, indirect, and cumulative light seaward of the dune; specifies low-level parking lights, window tinting, and retrofits for existing fixtures. |
+| **Hillsboro Beach** | March 1-October 31; sunset to sunrise. | Vehicles prohibited at night during nesting season, with emergency, law-enforcement, and authorized conservation or research exceptions. Fires prohibited at night. | Applies to all development. Requires downward-directed security lighting with motion sensors limited to five minutes; regulates interior lighting and pool lights. Temporary beach structures must be removed nightly or stacked to reduce turtle entrapment. |
+| **Hollywood** | March 1-October 31; sunset to sunrise. | No specific vehicle or fire rule listed in this chapter; it cross-references other beach activities involving direct illumination. | Detailed new- and existing-development standards, including shielding, window treatments, and controls for parking and construction lighting. Special provisions apply to the Broadwalk and Historic Overlay District, with public-safety considerations for existing buildings. |
+| **Lauderdale-by-the-Sea** | March 1-October 31; sunset to sunrise. | Not specified in the supplied policy. | Prohibits direct beach illumination and incorporates Florida and Broward lighting guidance. New or redeveloped beachfront projects must identify lighting controls in site plans. |
+| **Pompano Beach** | March 1-October 31; existing-light rules specify sunset to sunrise. | Not specified in the supplied policy. | Detailed new-, existing-, and public-lighting rules. Covers shielding, low-profile fixtures, windows, parking and headlights; motion-activated security lights can switch off within two minutes. |
+
+## Key Comparisons
+
+- All eight supplied Broward municipal sources use a March 1-October 31 nesting season. The Melbourne Beach benchmark starts May 1 and requires existing fixtures to be turned off after 9 p.m. during nesting season.
+- Fort Lauderdale, Hallandale Beach, and Hillsboro Beach explicitly restrict nighttime vehicle use and fires in their supplied turtle provisions. For the other municipalities, these activities are **not specified** in the supplied policy; that should not be read as permission.
+- Across the policies, the general approach is to protect nesting areas while retaining necessary safety lighting under restrictions. The municipal provisions do not directly evaluate tourism or economic effects.
+
+## Scope and Caveats
+
+This summary reflects the municipality-specific files supplied for review; it is not an independent check of current city codes. Where a policy does not specify an activity, the table says so rather than inferring that the activity is allowed.
+
+The separate Broward County Code of Ordinances PDF appeared as a scanned August 2026 supplement. It could be opened, but its text was not searchable or extractable in the review environment, so it is not included as a reviewed countywide overlay.
