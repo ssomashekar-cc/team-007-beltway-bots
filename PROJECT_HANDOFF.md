@@ -8,6 +8,8 @@ The Sea Turtle Impact Analysis Platform is a Streamlit-based web application des
 
 The platform will compare municipalities against a designated "gold standard" municipality, Melbourne Beach, Florida, and provide insights into policy differences, potential environmental impacts, and tourism-related economic implications.
 
+> **Data scope note (per data team):** Target municipalities for comparison against the Melbourne Beach gold standard are limited to municipalities within **Broward County, Florida**.
+
 ## Problem Statement
 
 Provide stakeholders with the ability to:
