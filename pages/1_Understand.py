@@ -18,6 +18,18 @@ st.markdown(
         margin: -0.5rem 0 1.5rem;
         max-width: 850px;
     }
+    .benchmark-callout {
+        background: #eaf1e6;
+        border-left: 5px solid #568267;
+        border-radius: 0 12px 12px 0;
+        color: #294d49;
+        line-height: 1.6;
+        margin: 1rem 0 1.5rem;
+        padding: 1rem 1.25rem;
+    }
+    .benchmark-callout strong {
+        color: #124447;
+    }
     .insight-card {
         background: #fff;
         border: 1px solid #e3eae4;
@@ -63,23 +75,36 @@ with st.container(key="understand-content"):
     st.title("Understand")
     st.markdown(
         '<p class="understand-intro">A practical snapshot of sea turtle protections '
-        "along Florida's Broward and Brevard coasts—for residents, community advocates, "
-        "local leaders, and coastal businesses.</p>",
+        "comparing Broward and Brevard to help residents, community advocates, "
+        "local leaders, and coastal businesses understand the policy choices.</p>",
+        unsafe_allow_html=True,
+    )
+
+    st.markdown(
+        """
+        <div class="benchmark-callout">
+            <strong>Brevard is the working gold-standard reference; Broward is the focus for action.</strong>
+            Brevard's layered county, municipal, and federal approach informs proposed
+            Broward policies intended to protect turtles while accommodating tourism.
+            This is a model for comparison—not proof that policy alone explains nest
+            counts or that tourism impacts have been measured.
+        </div>
+        """,
         unsafe_allow_html=True,
     )
 
     st.subheader("At a glance")
-    metric_one, metric_two, metric_three, metric_four = st.columns(4)
-    metric_one.metric("Broward cities reviewed", "8")
-    metric_two.metric("Broward nesting season", "Mar 1 – Oct 31")
-    metric_three.metric("Brevard nests · 2025", "≈53k")
-    metric_four.metric("Broward nests · 2025", "≈3.3k")
+    metric_one, metric_two, metric_three = st.columns(3)
+    metric_one.metric("Brevard nesting season", "May 1 – Oct 31")
+    metric_two.metric("Brevard nests · 2025", "53,000")
+    metric_three.metric("Broward nests · 2025", "3,300")
     st.caption(
-        "Nest estimates are from the supplied county comparison dataset summary; "
-        "they are not independently verified or adjusted for shoreline length or survey effort."
+        "The supplied overview describes Brevard's county ordinance as generally covering "
+        "May–October; Broward city sources generally cover March–October. Nest estimates "
+        "are approximate and are not adjusted for shoreline length or survey effort."
     )
 
-    st.subheader("What the local rules emphasize")
+    st.subheader("Broward recommendations, informed by Brevard's approach")
     lighting, season, beach_use = st.columns(3)
     with lighting:
         st.markdown(
@@ -97,10 +122,11 @@ with st.container(key="understand-content"):
         st.markdown(
             """
             <div class="insight-card">
-                <h3>Protect a longer season</h3>
+                <h3>Keep Broward's early-season protection</h3>
                 <p>The reviewed Broward city provisions generally cover March through
-                October. Melbourne Beach, the project benchmark, starts May 1 and
-                defines nighttime as 9 p.m. to 5 a.m.</p>
+                October, earlier than the May–October Brevard county season described
+                in the overview. Keep the earlier start unless wildlife agencies advise
+                otherwise.</p>
             </div>
             """,
             unsafe_allow_html=True,
@@ -118,7 +144,7 @@ with st.container(key="understand-content"):
             unsafe_allow_html=True,
         )
 
-    st.subheader("Two counties, different local landscapes")
+    st.subheader("Adapt the model to local conditions")
     broward, brevard = st.columns(2)
     with broward:
         st.markdown(
@@ -137,11 +163,11 @@ with st.container(key="understand-content"):
         st.markdown(
             """
             <div class="county-card">
-                <h3>Brevard · extensive nesting coast</h3>
-                <p>County, municipal, and federal jurisdictions share the coast.
-                Monitoring is distributed among multiple permit holders; the supplied
-                dataset summary reports substantially more nests in 2025 than
-                Broward.</p>
+                <h3>Brevard · layered policy reference</h3>
+                <p>County, municipal, and federal jurisdictions share the coast, with
+                monitoring distributed among multiple permit holders. Its layered
+                structure is a useful reference for Broward, whose beachfront rules are
+                primarily city by city.</p>
             </div>
             """,
             unsafe_allow_html=True,
@@ -152,6 +178,8 @@ with st.container(key="understand-content"):
             "The Broward city summary is based on the supplied municipality-specific "
             "policy comparison. The broader Broward–Brevard overview includes "
             "general-knowledge statements and is not a verified statutory review. "
+            "The nest totals do not show that policy differences caused different "
+            "nest outcomes, and the supplied material does not measure tourism effects. "
             "“Not specified” does not mean an activity is permitted. Confirm current "
             "ordinances, permit conditions, and dates with the relevant municipality, "
             "FWC, or FDEP before using this information for decisions."
